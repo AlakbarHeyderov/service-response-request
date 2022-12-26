@@ -3,7 +3,7 @@ enum NetworkPath { SETTINGS, LOGIN, SUPPORT}
 extension StringPathValue on NetworkPath {
    String get rawValue {
      switch (this) {
-     case NetworkPath.HOME:
+     case NetworkPath.SETTINGS:
      return 'settings';
      break;
          
